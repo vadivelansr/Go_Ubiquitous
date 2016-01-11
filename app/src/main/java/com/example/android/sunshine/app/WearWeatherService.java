@@ -6,7 +6,9 @@ import com.example.android.sunshine.app.sync.SunshineSyncAdapter;
 import com.google.android.gms.wearable.DataEvent;
 import com.google.android.gms.wearable.DataEventBuffer;
 import com.google.android.gms.wearable.WearableListenerService;
-
+/**
+ * WearWeatherService class which listens to wearable and sends data which is synced already with network.
+ * /
 public class WearWeatherService extends WearableListenerService {
 
     private static final String TAG = WearWeatherService.class.getSimpleName();
